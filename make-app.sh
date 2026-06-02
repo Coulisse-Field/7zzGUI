@@ -13,9 +13,8 @@ cp .build/release/7zzGUI build/7zzGUI.app/Contents/MacOS/
 cp Sources/7zzGUI/Info.plist build/7zzGUI.app/Contents/ 2>/dev/null || true
 
 # Bundle 7zz binary
-SZ=$(which 7zz || echo /usr/local/bin/7zz)
-echo "  封装 7zz: $SZ"
-cp "$SZ" build/7zzGUI.app/Contents/Resources/7zz
+echo "  封装 7zz:"
+cp 7zz build/7zzGUI.app/Contents/Resources/7zz
 chmod +x build/7zzGUI.app/Contents/Resources/7zz
 
 # Bundle language files into .app Resources
