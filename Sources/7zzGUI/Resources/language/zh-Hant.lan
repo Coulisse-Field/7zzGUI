@@ -1,0 +1,92 @@
+# 7zzGUI 繁體中文翻譯
+# 格式: key = value
+
+@language.name = 繁體中文
+
+# Tabs
+tab.compress = 壓縮
+tab.extract = 解壓
+tab.info = 查看
+
+# Compress
+compress.source = 來源檔案 / 資料夾
+compress.sourcePath = 來源路徑
+compress.addFiles = 加入檔案…
+compress.addFolders = 加入資料夾…
+compress.clear = 清除
+compress.output = 輸出
+compress.archivePath = 壓縮檔路徑
+compress.browse = 瀏覽…
+compress.format = 格式
+compress.options = 選項
+compress.level = 壓縮級別
+compress.password = 密碼 (可選)
+compress.encryptNames = 加密檔名
+compress.recursive = 遞迴子目錄
+compress.deleteAfter = 壓縮後刪除來源
+compress.splitVolume = 分割大小 (如 100m)
+compress.threads = 執行緒數
+compress.start = 開始壓縮
+compress.cancel = 取消
+compress.items = 項
+compress.level.0 = 僅儲存
+compress.level.1 = 最快
+compress.level.3 = 較快
+compress.level.5 = 標準
+compress.level.7 = 較大
+compress.level.9 = 極限
+
+# Extract
+extract.input = 輸入
+extract.archivePath = 壓縮檔路徑
+extract.output = 輸出
+extract.outputDir = 輸出目錄 (留空 = 壓縮檔所在目錄)
+extract.password = 密碼 (可選)
+extract.mode = 解壓方式
+extract.mode.full = 保留目錄結構 (x)
+extract.mode.flat = 平鋪所有檔案 (e)
+extract.overwrite = 覆蓋模式
+extract.ow.all = 覆蓋所有
+extract.ow.skip = 跳過既有
+extract.ow.older = 僅覆蓋舊檔案
+extract.ow.rename = 自動重新命名
+extract.ow.ask = 每次詢問
+extract.start = 開始解壓
+extract.cancel = 取消
+
+# Info
+info.input = 輸入
+info.path = 壓縮檔路徑
+info.command = 命令
+info.cmd.list = 列出內容
+info.cmd.test = 測試完整性
+info.cmd.hash = 計算雜湊值
+info.cmd.benchmark = 基準測試
+info.techInfo = 顯示詳細資訊 (-slt)
+info.execute = 執行
+
+# Quick extract
+quick.password = 密碼 (可選)
+quick.extract = 解壓
+quick.retry = 重試
+quick.cancel = 取消
+quick.close = 關閉
+quick.done = 解壓完成
+quick.failed = 解壓失敗
+quick.ready = 就緒
+quick.extracting = 解壓中…
+
+# Shared
+shared.outputLog = 輸出記錄
+shared.clearOutput = 清除
+shared.browse = 瀏覽…
+shared.cancel = 取消
+
+# Menu
+menu.about = 關於 7zzGUI
+menu.preferences = 偏好設定…
+menu.quit = 結束
+pref.title = 偏好設定
+pref.language = 語言
+about.title = 關於
+about.version = 版本

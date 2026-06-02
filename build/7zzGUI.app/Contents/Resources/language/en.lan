@@ -1,0 +1,92 @@
+# 7zzGUI English Translation
+# Format: key = value
+
+@language.name = English
+
+# Tabs
+tab.compress = Compress
+tab.extract = Extract
+tab.info = Info
+
+# Compress
+compress.source = Source Files / Folders
+compress.sourcePath = Source Path
+compress.addFiles = Add Files…
+compress.addFolders = Add Folders…
+compress.clear = Clear
+compress.output = Output
+compress.archivePath = Archive Path
+compress.browse = Browse…
+compress.format = Format
+compress.options = Options
+compress.level = Compression Level
+compress.password = Password (optional)
+compress.encryptNames = Encrypt Filenames
+compress.recursive = Recurse Subdirectories
+compress.deleteAfter = Delete After Compress
+compress.splitVolume = Volume Size (e.g. 100m)
+compress.threads = Threads
+compress.start = Compress
+compress.cancel = Cancel
+compress.items =  items
+compress.level.0 = Store
+compress.level.1 = Fastest
+compress.level.3 = Fast
+compress.level.5 = Normal
+compress.level.7 = Maximum
+compress.level.9 = Ultra
+
+# Extract
+extract.input = Input
+extract.archivePath = Archive Path
+extract.output = Output
+extract.outputDir = Output Directory (empty = same as archive)
+extract.password = Password (optional)
+extract.mode = Extract Mode
+extract.mode.full = Full Paths (x)
+extract.mode.flat = Flat (e)
+extract.overwrite = Overwrite Mode
+extract.ow.all = Overwrite All
+extract.ow.skip = Skip Existing
+extract.ow.older = Overwrite Older
+extract.ow.rename = Auto Rename
+extract.ow.ask = Ask
+extract.start = Extract
+extract.cancel = Cancel
+
+# Info
+info.input = Input
+info.path = Archive Path
+info.command = Command
+info.cmd.list = List Contents
+info.cmd.test = Test Integrity
+info.cmd.hash = Calculate Hash
+info.cmd.benchmark = Benchmark
+info.techInfo = Technical Info (-slt)
+info.execute = Execute
+
+# Quick extract
+quick.password = Password (optional)
+quick.extract = Extract
+quick.retry = Retry
+quick.cancel = Cancel
+quick.close = Close
+quick.done = Extraction Complete
+quick.failed = Extraction Failed
+quick.ready = Ready
+quick.extracting = Extracting…
+
+# Shared
+shared.outputLog = Output Log
+shared.clearOutput = Clear
+shared.browse = Browse…
+shared.cancel = Cancel
+
+# Menu
+menu.about = About 7zzGUI
+menu.preferences = Preferences…
+menu.quit = Quit
+pref.title = Preferences
+pref.language = Language
+about.title = About
+about.version = Version
