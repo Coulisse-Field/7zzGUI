@@ -67,4 +67,4 @@ If you redistribute this project with bundled binaries, you must also comply wit
 Make sure `7zz` is installed and available when making.
 
 ```bash
-7zz --help
+bash PATH/TO/make-app.sh
