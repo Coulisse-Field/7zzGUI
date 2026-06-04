@@ -66,6 +66,7 @@ final class ProcessRunner {
             p.fileHandleForReading.readabilityHandler = nil
             DispatchQueue.main.async {
                 self?.exitCode = code
+                self?.progress = 1.0
                 self?.isRunning = false
                 self?.process = nil
             }

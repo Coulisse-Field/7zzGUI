@@ -17,14 +17,14 @@ let window = NSWindow(
     backing: .buffered,
     defer: false
 )
-window.title = "7z GUI"
+window.title = "7zzGUI"
 window.contentView = NSHostingView(rootView: contentView)
 window.isReleasedWhenClosed = false
 
 app.activate(ignoringOtherApps: true)
 
 DispatchQueue.main.async {
-    window.setContentSize(NSSize(width: 575, height: 750))
+    window.setContentSize(NSSize(width: 575, height: 675))
     window.center()
     window.makeKeyAndOrderFront(nil)
 }

@@ -69,11 +69,18 @@ struct QuickExtractView: View {
             .font(.system(size: 12))
             .foregroundColor(
                 runner.isRunning
-                    ? Color(red: 0, green: 1, blue: 0.561)
+                    ? Color(red: 0.886, green: 0.137, blue: 0.388)
                     : (finished ? (success ? .green : .red) : .cyan)
             )
         }
         .padding(14)
+        .onChange(of: archiveURL) { _, _ in
+            password = ""
+            finished = false
+            success = false
+            runner.output = ""
+            runner.progress = 0
+        }
         .onChange(of: runner.isRunning) { _, running in
             if !running && !runner.output.isEmpty {
                 finished = true

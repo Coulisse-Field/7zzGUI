@@ -7,11 +7,9 @@ struct VSplitLayout<Content: View>: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 14) { content }
-                    .padding()
-            }
-            .frame(maxHeight: .infinity)
+            VStack(alignment: .leading, spacing: 14) { content }
+                .padding()
+                .frame(maxHeight: .infinity, alignment: .top)
 
             Divider()
 
